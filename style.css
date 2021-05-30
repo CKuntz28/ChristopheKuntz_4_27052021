@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, 0.95);
 }
 
 .d-bloc button:hover {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, .9);
 }
 
 .d-bloc .a-btn:hover,
@@ -708,13 +708,20 @@ h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
-
+h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
+}
 h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
+
+
 
 .med-width-whitespace {
     max-width: 800px;
@@ -776,7 +783,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
