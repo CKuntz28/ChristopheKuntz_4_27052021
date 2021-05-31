@@ -658,10 +658,7 @@ a {
     font-weight: 400;
     color: black;
 }
-.col-sm-4{
-    margin-top: 30px;
-    margin-left: 150px;
-}
+
 .container {
     max-width: 1000px;
 }
@@ -707,7 +704,19 @@ p {
     font-weight: 700;
 }
 .col-sm-4{
-    text-align: left;
+    text-align: center;
+    /* width: 50%; */
+    margin-top: 30px;
+}
+
+.none{
+    list-style: none;
+    /* width: 50%;  */
+    margin-left: -40px;
+}
+.centre{
+    text-align: center;
+    font-size: 15px;
 }
 .social {
     max-width: 400px;
@@ -1058,10 +1067,12 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
-        
+
     }
     .col-sm-4{
-
-        margin-left: 80px;
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+        
     }
 }
