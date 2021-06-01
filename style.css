@@ -712,11 +712,12 @@ p {
 .none{
     list-style: none;
     /* width: 50%;  */
-    margin-left: -40px;
+    
 }
 .centre{
     text-align: center;
     font-size: 15px;
+    margin-left: 30px;
 }
 .social {
     max-width: 400px;
@@ -806,12 +807,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background:#4e9bff; 
+    /* #F3976C; */
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #7eb6ff!important;
     color: #FFFFFF!important;
 }
 
