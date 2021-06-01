@@ -12,7 +12,9 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
+.ac{
+    margin-right: 200px;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -792,6 +794,7 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
+    width: 100%;
 }
 
 .bgc-dark-slate-blue {
@@ -807,12 +810,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background:#c27956;
-    color: #FFFFFF!important;
+    background: #f3976c;
+    color: #030303!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #f3976c!important;
+    background:#c27956!important;
     color: #FFFFFF!important;
 }
 
